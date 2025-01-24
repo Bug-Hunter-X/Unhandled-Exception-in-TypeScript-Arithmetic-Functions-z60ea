@@ -1,0 +1,3 @@
+# Unhandled Exception in TypeScript Arithmetic Functions
+
+This repository demonstrates a common error in TypeScript: failing to handle exceptions. The `bug.ts` file contains a set of arithmetic functions (`add`, `subtract`, `multiply`, `divide`). The `divide` function throws an error if the denominator is zero. However, the code calling `divide` doesn't handle this potential error, leading to an uncaught exception and a program crash.  The `bugSolution.ts` file provides a corrected version demonstrating proper exception handling using a `try...catch` block. 
